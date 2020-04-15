@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2020-04-11" view-index="0" gantt-divider-location="300" resource-divider-location="300" version="2.8.10" locale="en_US">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Name" width="158" order="0"/>
+        <field id="tpd4" name="Begin date" width="62" order="1"/>
+        <field id="tpd5" name="End date" width="61" order="2"/>
+        <option id="color.recent"><![CDATA[#3333ff]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="CIS100" color="#8cb6ce" meeting="false" start="2020-04-14" duration="2" complete="0" thirdDate="2020-04-14" thirdDate-constraint="1" expand="true"/>
+        <task id="1" name="CIS115" color="#8cb6ce" meeting="false" start="2020-04-14" duration="1" complete="0" thirdDate="2020-04-14" thirdDate-constraint="0" expand="true"/>
+        <task id="2" name="CIS120" color="#8cb6ce" meeting="false" start="2020-04-14" duration="1" complete="0" thirdDate="2020-04-14" thirdDate-constraint="0" expand="true"/>
+        <task id="3" name="CIS140" color="#8cb6ce" meeting="false" start="2020-04-14" duration="1" complete="0" thirdDate="2020-04-14" thirdDate-constraint="0" expand="true"/>
+        <task id="4" name="CIS155" color="#8cb6ce" meeting="false" start="2020-04-14" duration="1" complete="0" thirdDate="2020-04-14" thirdDate-constraint="0" expand="true"/>
+        <task id="5" name="CIS160" color="#8cb6ce" meeting="false" start="2020-04-14" duration="1" complete="0" thirdDate="2020-04-14" thirdDate-constraint="0" expand="true"/>
+        <task id="6" name="CIS165" color="#8cb6ce" meeting="false" start="2020-04-14" duration="1" complete="0" thirdDate="2020-04-14" thirdDate-constraint="0" expand="true"/>
+        <task id="7" name="CIS180" color="#8cb6ce" meeting="false" start="2020-04-14" duration="1" complete="0" thirdDate="2020-04-14" thirdDate-constraint="0" expand="true"/>
+        <task id="8" name="CIS200" color="#8cb6ce" meeting="false" start="2020-04-14" duration="1" complete="0" thirdDate="2020-04-14" thirdDate-constraint="0" expand="true"/>
+        <task id="9" name="CIS207" color="#8cb6ce" meeting="false" start="2020-04-14" duration="1" complete="0" thirdDate="2020-04-14" thirdDate-constraint="0" expand="true"/>
+        <task id="10" name="CIS220" color="#8cb6ce" meeting="false" start="2020-04-14" duration="1" complete="0" thirdDate="2020-04-14" thirdDate-constraint="0" expand="true"/>
+        <task id="11" name="CIS235" color="#8cb6ce" meeting="false" start="2020-04-14" duration="1" complete="0" thirdDate="2020-04-14" thirdDate-constraint="0" expand="true"/>
+        <task id="12" name="CIS255" color="#8cb6ce" meeting="false" start="2020-04-14" duration="1" complete="0" thirdDate="2020-04-14" thirdDate-constraint="0" expand="true"/>
+        <task id="13" name="CIS280" color="#8cb6ce" meeting="false" start="2020-04-14" duration="1" complete="0" thirdDate="2020-04-14" thirdDate-constraint="0" expand="true"/>
+        <task id="14" name="CIS316" color="#8cb6ce" meeting="false" start="2020-04-14" duration="1" complete="0" thirdDate="2020-04-14" thirdDate-constraint="0" expand="true"/>
+        <task id="15" name="CIS317" color="#8cb6ce" meeting="false" start="2020-04-14" duration="1" complete="0" thirdDate="2020-04-14" thirdDate-constraint="0" expand="true"/>
+        <task id="16" name="CIS325" color="#8cb6ce" meeting="false" start="2020-04-14" duration="1" complete="0" thirdDate="2020-04-14" thirdDate-constraint="0" expand="true"/>
+        <task id="17" name="CIS335" color="#8cb6ce" meeting="false" start="2020-04-14" duration="1" complete="0" thirdDate="2020-04-14" thirdDate-constraint="0" expand="true"/>
+        <task id="18" name="CIS345" color="#8cb6ce" meeting="false" start="2020-04-14" duration="1" complete="0" thirdDate="2020-04-14" thirdDate-constraint="0" expand="true"/>
+        <task id="39" name="CIS359" color="#8cb6ce" meeting="false" start="2020-04-14" duration="1" complete="0" thirdDate="2020-04-14" thirdDate-constraint="0" expand="true"/>
+        <task id="40" name="CIS362" color="#8cb6ce" meeting="false" start="2020-04-14" duration="1" complete="0" thirdDate="2020-04-14" thirdDate-constraint="0" expand="true"/>
+        <task id="41" name="CIS364" color="#8cb6ce" meeting="false" start="2020-04-14" duration="1" complete="0" thirdDate="2020-04-14" thirdDate-constraint="0" expand="true"/>
+        <task id="42" name="CIS365" color="#8cb6ce" meeting="false" start="2020-04-14" duration="1" complete="0" thirdDate="2020-04-14" thirdDate-constraint="0" expand="true"/>
+        <task id="43" name="CIS370" color="#8cb6ce" meeting="false" start="2020-04-14" duration="1" complete="0" thirdDate="2020-04-14" thirdDate-constraint="0" expand="true"/>
+        <task id="49" name="CIS385" color="#8cb6ce" meeting="false" start="2020-04-14" duration="1" complete="0" thirdDate="2020-04-14" thirdDate-constraint="0" expand="true"/>
+        <task id="50" name="CIS390" color="#8cb6ce" meeting="false" start="2020-04-14" duration="1" complete="0" thirdDate="2020-04-14" thirdDate-constraint="0" expand="true"/>
+        <task id="51" name="CIS395" color="#8cb6ce" meeting="false" start="2020-04-14" duration="1" complete="0" thirdDate="2020-04-14" thirdDate-constraint="0" expand="true"/>
+        <task id="52" name="CIS420" color="#8cb6ce" meeting="false" start="2020-04-14" duration="1" complete="0" thirdDate="2020-04-14" thirdDate-constraint="0" expand="true"/>
+        <task id="57" name="CIS440" color="#8cb6ce" meeting="false" start="2020-04-14" duration="1" complete="0" thirdDate="2020-04-14" thirdDate-constraint="0" expand="true"/>
+        <task id="59" name="CIS445" color="#8cb6ce" meeting="false" start="2020-04-14" duration="1" complete="0" thirdDate="2020-04-14" thirdDate-constraint="0" expand="true"/>
+        <task id="61" name="CIS455" color="#8cb6ce" meeting="false" start="2020-04-14" duration="1" complete="0" thirdDate="2020-04-14" thirdDate-constraint="0" expand="true"/>
+        <task id="63" name="CIS459" color="#8cb6ce" meeting="false" start="2020-04-14" duration="1" complete="0" thirdDate="2020-04-14" thirdDate-constraint="0" expand="true"/>
+        <task id="64" name="CIS465" color="#8cb6ce" meeting="false" start="2020-04-14" duration="1" complete="0" thirdDate="2020-04-14" thirdDate-constraint="0" expand="true"/>
+        <task id="65" name="CIS475" color="#8cb6ce" meeting="false" start="2020-04-14" duration="1" complete="0" thirdDate="2020-04-14" thirdDate-constraint="0" expand="true"/>
+        <task id="66" name="CIS480" color="#8cb6ce" meeting="false" start="2020-04-14" duration="1" complete="0" thirdDate="2020-04-14" thirdDate-constraint="0" expand="true"/>
+        <task id="67" name="CIS485" color="#8cb6ce" meeting="false" start="2020-04-14" duration="1" complete="0" thirdDate="2020-04-14" thirdDate-constraint="0" expand="true"/>
+        <task id="68" name="CIS490" color="#8cb6ce" meeting="false" start="2020-04-14" duration="1" complete="0" thirdDate="2020-04-14" thirdDate-constraint="0" expand="true"/>
+        <task id="69" name="CIS495" color="#8cb6ce" meeting="false" start="2020-04-14" duration="1" complete="0" thirdDate="2020-04-14" thirdDate-constraint="0" expand="true"/>
+        <task id="77" name="CSC101" color="#8cb6ce" meeting="false" start="2020-04-14" duration="1" complete="0" thirdDate="2020-04-14" thirdDate-constraint="0" expand="true"/>
+        <task id="81" name="CSC110" color="#8cb6ce" meeting="false" start="2020-04-14" duration="1" complete="0" thirdDate="2020-04-14" thirdDate-constraint="0" expand="true"/>
+        <task id="82" name="CSC111" color="#8cb6ce" meeting="false" start="2020-04-14" duration="1" complete="0" thirdDate="2020-04-14" thirdDate-constraint="0" expand="true"/>
+        <task id="83" name="CSC210" color="#8cb6ce" meeting="false" start="2020-04-14" duration="1" complete="0" thirdDate="2020-04-14" thirdDate-constraint="0" expand="true"/>
+        <task id="84" name="CSC211" color="#8cb6ce" meeting="false" start="2020-04-14" duration="1" complete="0" thirdDate="2020-04-14" thirdDate-constraint="0" expand="true"/>
+        <task id="85" name="CSC215" color="#8cb6ce" meeting="false" start="2020-04-14" duration="1" complete="0" thirdDate="2020-04-14" thirdDate-constraint="0" expand="true"/>
+        <task id="86" name="CSC230" color="#8cb6ce" meeting="false" start="2020-04-14" duration="1" complete="0" thirdDate="2020-04-14" thirdDate-constraint="0" expand="true"/>
+        <task id="87" name="CSC231" color="#8cb6ce" meeting="false" start="2020-04-14" duration="1" complete="0" thirdDate="2020-04-14" thirdDate-constraint="0" expand="true"/>
+        <task id="88" name="CSC310" color="#8cb6ce" meeting="false" start="2020-04-14" duration="1" complete="0" thirdDate="2020-04-14" thirdDate-constraint="0" expand="true"/>
+        <task id="78" name="CSC330" color="#8cb6ce" meeting="false" start="2020-04-14" duration="1" complete="0" thirdDate="2020-04-14" thirdDate-constraint="0" expand="true"/>
+        <task id="79" name="CSC331" color="#8cb6ce" meeting="false" start="2020-04-14" duration="1" complete="0" thirdDate="2020-04-14" thirdDate-constraint="0" expand="true"/>
+        <task id="99" name="CSC350" color="#8cb6ce" meeting="false" start="2020-04-14" duration="1" complete="0" thirdDate="2020-04-14" thirdDate-constraint="0" expand="true"/>
+        <task id="100" name="CSC410" color="#8cb6ce" meeting="false" start="2020-04-14" duration="1" complete="0" thirdDate="2020-04-14" thirdDate-constraint="0" expand="true"/>
+        <task id="101" name="CSC430" color="#8cb6ce" meeting="false" start="2020-04-14" duration="1" complete="0" thirdDate="2020-04-14" thirdDate-constraint="0" expand="true"/>
+        <task id="105" name="CSC470" color="#8cb6ce" meeting="false" start="2020-04-14" duration="1" complete="0" thirdDate="2020-04-14" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
