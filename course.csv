@@ -1,0 +1,54 @@
+CourseNo,Title,credit
+CIS100,Introduction to Computer Applications,3
+CIS115,Introduction to Computer and Information Security,3
+CIS120,Introduction to Data Base Applications,2
+CIS140,Introduction to Spreadsheet Applications,2
+CIS155,Computer Hardware,4
+CIS160,Desktop Publishing Packages,2
+CIS165,Introduction to Operating Systems,3
+CIS180,Introduction to the Internet,3
+CIS200,Introduction Systems and Technologies,3
+CIS207,Healthcare Information Technologies and Management Systems,4
+CIS220,Visual BASIC,3
+CIS235,Computer Operations I,4
+CIS255,Computer Software,3
+CIS280,Advanced Internet Applications,3
+CIS316,Introduction to Digital Forensics,3
+CIS317,Introduction to Cryptography,4
+CIS325,Systems Analysis,3
+CIS335,Computer Operations II/ JCL,3
+CIS345,Telecommunication Networks I,3
+CIS359,Information Assurance,3
+CIS362,Cloud Computing,3
+CIS364,Mobile Device Programming,3
+CIS365,Business Systems I,4
+CIS370,Database Driven Website Programming,3
+CIS385,Web Programming I,3
+CIS390,Wireless Programming,3
+CIS395,Database Systems I,3
+CIS420,Systems Implementation,3
+CIS440,UNIX,3
+CIS445,Telecommunications Networks II / LAN,3
+CIS455,Network Security,3
+CIS459,Ethical Hacking and System Defense,3
+CIS465,Business Systems II,3
+CIS475,Wireless Information Networks,4
+CIS480,Operating Systems Concepts,3
+CIS485,Web Programming II,3
+CIS490,Introduction to Data Science,3
+CIS495,Database Systems II,3
+CSC 101,Principles in Information Technology and Computation,3
+CSC 110,Computer Programming I,4
+CSC111,Introduction to Programming ,4
+csc210,Computer Programming  II,3
+CSC211,Advanced Programming Techiques,3
+CSC215,Fundamental of Computer Systems.,3
+CSC230,Discrete Structures,3
+CSC231,Discrete Structures and Application to Computer Science,4
+CSC310 ,Assembler Language Architecture I,3
+CSC330, Data Structures I,3
+CSC331,Data Structures ,3
+CSC350,Software Development ,3
+CSC410 ,Assembler Language Architecture II,3
+CSC430,Data Structures II,3
+CSC470,Mathematical Foundations of Computer (Same as MAT 470),4

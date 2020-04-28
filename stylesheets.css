@@ -2,10 +2,12 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family: sans-serif;
-	background-image: url(back_imag.jpg) ;
+	
+	background-image: url(back_image.jpg) ;
     background-size: cover;
     background-position: center;
-	color: black;
+	color: white;
+background-color:black;
 	
 	}
 	h2
@@ -13,19 +15,30 @@ body{
 background-color: black;
 color: white;
 	}
+	 h3
+	{
+		background-color: black;
+color: white;
+size: auto;
+	}
+	 h4
+	{
+		background-color: navy;
+color: white;
+	}
 
  .sub
   {
-    width: 30%;
+    width: 20%;
     box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
-	background: #fff;
+	background: black;
 	padding: 20px;
 	margin:  8% auto 0;
 	text-align: center;
 }
  .sub h1
  {
- 	color: blue;
+ 	color: green;
  	margin-bottom: 30px;
  }
  .box
@@ -33,7 +46,7 @@ color: white;
  	border-radius: 20px;
  	padding: 10px;
  	margin: 10px 0;
- 	width: 100%;
+ 	width: 50%;
  	border: 1px solid #999;
  	outline: none;
  }
@@ -64,7 +77,7 @@ color: white;
  	width: 80%;
  }
  .or{
- 	background: yellow;
+ 	background: black;
  	width: 30px;
  	margin: -19px auto 10px;
  }

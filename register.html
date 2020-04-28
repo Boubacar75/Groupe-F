@@ -1,26 +1,29 @@
 <html>
   
 <head> 
-	<title> registration page</title>
+	<title> Registration Page</title>
 <link href="stylesheet.css" rel="stylesheet">
 
  </head>
 <body>
 <div class="sub">
 	<img src="user_icon.png">
-	<h1> SEARCH CLASS TO REGISTER</h1>
-	<form>
-	 enter course number to search:
-	<input type="coursenum" name="cn" placeholder ="course number">
+	<h2> INPUT YOUR QUERY STRING</h2> 
+	
+<form action ="courseInfo.php" method="get">
+	<p> 
+	<input type="coursenum" name="cn" placeholder ="Course Number"></p>
+	<hr>
+	
 
-	enter course section to search: 
-	<input type="courseSection" name="cs"  placeholder= "course section"> 
-<p>
-<input type="submit" name="submit" value="SEARCH" >
-</p>
+	<!--<p>Enter course section to search: 
+	<input type="courseSection" name="cs"  placeholder= "Course Section"> </p>
+<p>-->
+<input type="submit" name="submit" value="DATABASE SEARCH" >
+</p> 
 </form>
 </div>
+
 </body>
 
 </html>
-https://github.com/Boubacar75/Groupe-F

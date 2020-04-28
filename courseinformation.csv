@@ -1,0 +1,71 @@
+CourseNo,Title,credit,sectioNo,room,instructor,email,position,phone,hours
+CIS100,Introduction to Computer Applications,3,1200,F904,"Errera,Aberto",aerrera@bmcc.cuny.edu,Faculty,212-220-1483,4
+CIS115,Introduction to Computer and Information Security,3,1104,F908,"O' Sullivan,John T",,Adjunct,212-220-1476,4
+CIS120,Introduction to Data Base Applications,2,1704,F904,"Chen,Yan",ychen@bmcc.cuny.edu,Faculty,212-220-8384,3
+CIS140,Introduction to Spreadsheet Applications,2,1802,F905,"Melie,Ora K",,Adjunct,212-220-1476,3
+CIS155,Computer Hardware,4,1600,M1209,"Avcilar,Tamer",tavcilar@bmcc.cuny.edu,Faculty,212-220-1478,5
+CIS160,Desktop Publishing Packages,2,1105,F904,"Toliyat Abolhassani,Amir Mohsen",,Adjunct,212-220-1476,3
+CIS165,Introduction to Operating Systems,3,1404,F1204,"Azhar,Mohammad Quamrul",mazhar@bmcc.cuny.edu,Faculty,212-220-1477,4
+CIS180,Introduction to the Internet,3,1303,F1201,"Jayaweera,Darshani P",,Adjunct,212-220-1476,4
+CIS200,Introduction Systems and Technologies,3,1504,F1113,"Hernandez,Candido",,Adjunct,212-220-1476,4
+CIS207,Healthcare Information Technologies and Management Systems,4,1103,F1203,"Harricharan,Andy L",,Adjunct,212-220-1476,6
+CIS220,Visual BASIC,3,1603,F905,"Zeidan,Ayman I",,Adjunct,212-220-1476,4
+CIS235,Computer Operations I,4,1505,F1113,"Kalicharan,Dharamraj",,Adjunct,212-220-1476,5
+CIS255,Computer Software,3,1705,M1209,"Patrick,Dexter",,Adjunct,212-220-1476,6
+CIS280,Advanced Internet Applications,3,1301,F906,"Kalicharan,Dharamraj",,Adjunct,212-220-1476,4
+CIS316,Introduction to Digital Forensics,3,1001,F1204,"Veyler,Mikhail",,Adjunct,212-220-1476,4
+CIS317,Introduction to Cryptography,4,1801,F907,"Adesman,Alexander",,Adjunct,212-220-1476,4
+CIS325,Systems Analysis,3,1902,F1204,"Rani,Chigurupati S",csrani@bmcc.cuny.edu,Faculty,212-220-1487,4
+CIS335,Computer Operations II/ JCL,3,1002,M1209,"Khan,Lawrence",,Adjunct,212-220-1476,5
+CIS345,Telecommunication Networks I,3,1201,F1203,"Nossa,George A",,Adjunct,212-220-1476,5
+CIS359,Information Assurance,3,1904,F907,"Scheiman,Arnold J",ascheiman@bmcc.cuny.edu,Faculty,212-220-7227,4
+CIS362,Cloud Computing,3,1601,F904,"Liu,Ligon Mengxu",,Adjunct,212-220-1476,4
+CIS364,Mobile Device Programming,3,1203,F906,"Mokal,Prajakta L",,Adjunct,212-220-1476,4
+CIS365,Business Systems I,4,1502,F1201,"Genis,Yakov",ygenis@bmcc.cuny.edu,Faculty,212-220-1482,5
+CIS370,Database Driven Website Programming,3,1304,F905,"Hasan,Naushad",,Adjunct,212-220-1476,4
+CIS385,Web Programming I,3,1803,F907,"Naranjo Rivera,Eduardo Efrain",,Adjunct,212-220-1476,4
+CIS390,Wireless Programming,3,1602,F1113,"Vargas,Jose I",jvargas@bmcc.cuny.edu,Faculty,212-220-1481,4
+CIS395,Database Systems I,3,1305,F1203,"Conroy,Matthew",,Adjunct,212-220-1476,5
+CIS420,Systems Implementation,3,1905,F906,"Cooper,Kenneth J",,Adjunct,212-220-1476,5
+CIS440,UNIX,3,1003,M1209,"Vargas,Jose",jvargas@bmcc.cuny.edu,Faculty,212-220-1481,4
+CIS445,Telecommunications Networks II / LAN,3,1302,F1204,"Melie,Ora K",,Adjunct,212-220-1476,5
+CIS455,Network Security,3,1804,F1201,"Sana,Ajaz",,Adjunct,212-220-1476,5
+CIS459,Ethical Hacking and System Defense,3,1405,F908,"Nossa,George A",,Adjunct,212-220-1476,5
+CIS465,Business Systems II,3,1202,F906,"O'Faire,Lashawna R",,Adjunct,212-220-1476,10
+CIS475,Wireless Information Networks,4,1000,F1204,"Lau,Roy",,Adjunct,212-220-1476,5
+CIS480,Operating Systems Concepts,3,1903,F1113,"Hernandez,Candido",,Adjunct,212-220-1476,3
+CIS485,Web Programming II,3,1800,M1209,"Naranjo Rivera,Eduardo Efrain",,Adjunct,212-220-1476,4
+CIS490,Introduction to Data Science,3,1403,F1203,"Doumassi,Kokou",,Adjunct,212-220-1476,4
+CIS495,Database Systems II,3,1503,F907,"Zeidan,Ayman",,Adjunct,212-220-1476,4
+CSC 101,Principles in Information Technology and Computation,3,1500,F904,"Hasan,Naushad",,Adjunct,212-220-1476,4
+CSC 110,Computer Programming I,4,1901,F905,"Scheiman,Arnold",ascheiman@bmcc.cuny.edu,Faculty,212-220-7227,5
+CSC111,Introduction to Programming ,4,1900,F906,"Chan,Matthew",machan@bmcc.cuny.edu,Faculty,212-776-7228,5
+csc210,Computer Programming  II,3,1700,F907,"Yan,Louise",,Adjunct,212-220-1476,5
+CSC211,Advanced Programming Techiques,3,1100,M1209,"Azhar ,Mohammed Quamrul",mazhar@bmcc.cuny.edu,Faculty,212-220-1477,5
+CSC215,Fundamental of Computer Systems.,3,1101,F908,"Avcilar ,Tamer",tavcilar@bmcc.cuny.edu,Faculty,212-220-1478,4
+CSC230,Discrete Structures,3,1701,F1113,"Adesman,Alexander",,Adjunct,212-220-1476,6
+CSC231,Discrete Structures and Application to Computer Science,4,1400,F1201,"Eckman,Robert L",,Adjunct,212-220-1476,4
+CSC310 ,Assembler Language Architecture I,3,1702,F1203,"Veyler,Mikhail",,Adjunct,212-220-1476,4
+CSC330, Data Structures I,3,1703,F1204,"Salvati,Anna",asalvati@bmcc.cuny.edu,Faculty,212-220-1480,4
+CSC331,Data Structures ,3,1401,F904,"Anderson,Raheim Alan",,Adjunct,212-220-1476,5
+CSC350,Software Development ,3,1300,M1209,"Wei,Ching",cwei@bmcc.cuny.edu,,212-220-8385,5
+CSC410 ,Assembler Language Architecture II,3,1102,F906,"Ye,Ze",,Adjunct,212-220-1476,4
+CSC430,Data Structures II,3,1402,F1201,"Kok,Ahmet",amkok@bmcc.cuny.edu,Faculty,212-220-1492,4
+CSC450,Computer Graphics,3,1603,F1113,"Chen,Danny",,Adjunct,212-220-1492,4
+CSC470,Mathematical Foundations of Computer (Same as MAT 470),4,1501,F908,"Santos,Jose Ramon R",,Adjunct,212-220-1476,5
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
