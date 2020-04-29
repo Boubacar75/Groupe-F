@@ -1,5 +1,8 @@
 
 <?php
+
+echo'<link href="stylesheets.css" rel="stylesheet">';
+
 $servername="localhost";
 $username="root";
 $password="";
@@ -18,100 +21,145 @@ $sql =$query; //"select * from sciencemajor.courseinformation"; // Create query 
 $result = mysqli_query($conn, $sql); // Send the query to the database
 
 
-if($sql=='select CourseNo, Title from sciencemajor.courseinformation')
-	{
-	echo "<br>";
-	if (mysqli_num_rows($result) > 0) // if there are rows present
-	{
-	while($row = mysqli_fetch_assoc($result)) { // fetch next row
-	echo $row["CourseNo"]. "		" . $row["Title"]. "<br>"; // output data of that row
-	}
+if($sql=='select CourseNo, Title from termproject.courseinformation')
+						{
+						echo "<br>";
+						if (mysqli_num_rows($result) > 0) // if there are rows present
+						{
+						while($row = mysqli_fetch_assoc($result)) { // fetch next row
+						echo $row["CourseNo"]. "		" . $row["Title"]. "<br>"; // output data of that row
+						}
 
-	} 
-	else {
-	echo "No results";
-	}
-	$conn->close();
+						} 
+						else {
+						echo "No results";
+						}
+						$conn->close();
 
-	mysqli_free_result($result);
-	$conn->close();
-	}
-
-
-
-elseif($sql=='select * from sciencemajor.courseinformation')
-	{
-	echo "<br>";
-	if (mysqli_num_rows($result) > 0) // if there are rows present
-	{
-	while($row = mysqli_fetch_assoc($result))
-	 { 
-	echo $row["courseNo"]."		".$row["Title"]. "		".$row["credit"]."		".$row["sectionNo"]."		".$row["room"]."		".$row["instruction"]."		".$row["email"]."		" .$row["position"]."		" .$row["phone"]."<br>"; // output data of that row
-	}
-
-	} 
-	else {
-	echo "No results";
-	}
-	$conn->close();
-	mysqli_free_result($result);
-	$conn->close();
-	}
-
-elseif($sql=='select Title from sciencemajor.courseinformation')
-	{
-	echo "<br>";
-	if (mysqli_num_rows($result) > 0) // if there are rows present
-	{
-	while($row = mysqli_fetch_assoc($result)) { // fetch next row
-	echo $row["Title"]."<br>"; // output data of that row
-	}
-
-	} 
-	else {
-	echo "No results";
-	}
-	$conn->close();
-	mysqli_free_result($result);
-	$conn->close();
-	}
-
-elseif($sql=='select Title, room from sciencemajor.courseinformation')
-	{
-	echo "<br>";
-	if (mysqli_num_rows($result) > 0) // if there are rows present
-	{
-	while($row = mysqli_fetch_assoc($result)) { // fetch next row
-	echo $row["Title"]."   ".$row["room"]."<br>"; // output data of that row
-	}
-
-	} 
-	else {
-	echo "No results";
-	}
-	$conn->close();
-	mysqli_free_result($result);
-	$conn->close();
-	}
+						mysqli_free_result($result);
+						$conn->close();
+						}
 
 
-elseif($sql=='select email, phone from sciencemajor.courseinformation')
-	{
-	echo "<br>";
-	if (mysqli_num_rows($result) > 0) // if there are rows present
-	{
-	while($row = mysqli_fetch_assoc($result)) { // fetch next row
-	echo $row["email"]."            ".$row["phone"]."<br>"; // output data of that row
-	}
 
-	} 
-	else {
-	echo "No results";
-	}
-	$conn->close();
-	mysqli_free_result($result);
-	$conn->close();
-	}
+elseif($sql=='select * from termproject.courseinformation')
+						{
+						echo "<br>";
+						if (mysqli_num_rows($result) > 0) // if there are rows present
+						{
+						while($row = mysqli_fetch_assoc($result))
+						 { 
+						echo $row["courseNo"]."		".$row["Title"]. "		".$row["credit"]."		".$row["sectionNo"]."		".$row["room"]."		".$row["instructor"]."		".$row["email"]."		" .$row["position"]."		" .$row["phone"]."<br>"; // output data of that row
+						}
+
+						} 
+						else {
+						echo "No results";
+						}
+						$conn->close();
+						mysqli_free_result($result);
+						$conn->close();
+						}
+
+
+elseif ($sql=='select * from termproject.course')
+						{
+						echo "<br>";
+						if (mysqli_num_rows($result) > 0) // if there are rows present
+						{
+						while($row = mysqli_fetch_assoc($result)) { // fetch next row
+						echo $row["courseNo"]."		".$row["Title"]. "		".$row["credit"]."<br>";
+; // output data of that row
+						}
+
+						} 
+						else {
+						echo "No results";
+						}
+						$conn->close();
+
+						mysqli_free_result($result);
+						$conn->close();
+						}
+	
+
+elseif($sql=='select * from termproject.coursesection')
+							{
+							echo "<br>";
+							if (mysqli_num_rows($result) > 0) // if there are rows present
+							{
+							while($row = mysqli_fetch_assoc($result))
+							 { 
+							echo $row["courseNo"]."		".$row["sectionNo"]."		".$row["room"]."<br>"; // output data of that row
+							}
+
+							} 
+							else {
+							echo "No results";
+							}
+							$conn->close();
+							mysqli_free_result($result);
+							$conn->close();
+							}
+
+
+
+
+
+elseif($sql=='select Title from termproject.courseinformation')
+						{
+						echo "<br>";
+						if (mysqli_num_rows($result) > 0) // if there are rows present
+						{
+						while($row = mysqli_fetch_assoc($result)) { // fetch next row
+						echo $row["Title"]."<br>"; // output data of that row
+						}
+
+						} 
+						else {
+						echo "No results";
+						}
+						$conn->close();
+						mysqli_free_result($result);
+						$conn->close();
+						}
+
+elseif($sql=='select Title, room from termproject.courseinformation')
+						{
+						echo "<br>";
+						if (mysqli_num_rows($result) > 0) // if there are rows present
+						{
+						while($row = mysqli_fetch_assoc($result)) { // fetch next row
+						echo $row["Title"]."   ".$row["room"]."<br>"; // output data of that row
+						}
+
+						} 
+						else {
+						echo "No results";
+						}
+						$conn->close();
+						mysqli_free_result($result);
+						$conn->close();
+						}
+
+
+elseif($sql=='select email, phone from termproject.courseinformation')
+					{
+					echo "<br>";
+					if (mysqli_num_rows($result) > 0) // if there are rows present
+					{
+					while($row = mysqli_fetch_assoc($result)) { // fetch next row
+					echo $row["email"]."            ".$row["phone"]."<br>"; // output data of that row
+					}
+
+					} 
+					else {
+					echo "No results";
+					}
+					$conn->close();
+					mysqli_free_result($result);
+					$conn->close();
+					}
 
 else
 echo"QUERY STRING ERROR";

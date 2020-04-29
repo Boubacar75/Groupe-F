@@ -1,0 +1,88 @@
+body{	
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	
+	background-image: url(outputback_image.jpg) ;
+    background-size: cover;
+    background-position: center;
+	color: black;
+background-color:black;
+	
+	}
+	h2
+	{
+background-color: black;
+color: white;
+	}
+	 h3
+	{
+		background-color: black;
+color: white;
+size: auto;
+	}
+	 h4
+	{
+		background-color: navy;
+color: white;
+	}
+
+ .sub
+  {
+    width: 20%;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+	background: black;
+	padding: 20px;
+	margin:  8% auto 0;
+	text-align: center;
+}
+ .sub h1
+ {
+ 	color: green;
+ 	margin-bottom: 30px;
+ }
+ .box
+ {
+ 	border-radius: 20px;
+ 	padding: 10px;
+ 	margin: 10px 0;
+ 	width: 50%;
+ 	border: 1px solid #999;
+ 	outline: none;
+ }
+ button
+ {
+ 	color: #fff;
+ 	width:100%;
+ 	padding: 10px;
+ 	border-radius: 20px;
+ 	font-size: 15px;
+ 	margin: 10px 0;
+ 	border: none;
+ 	outline: none;
+ 	cursor: pointer;
+
+ }
+ .register_btn
+ {
+ 	background-color: green;
+ }
+ a
+ {
+ 	text-decoration: none;
+ }
+ hr
+ {
+ 	margin-top: 20px;
+ 	width: 80%;
+ }
+ .or{
+ 	background: black;
+ 	width: 30px;
+ 	margin: -19px auto 10px;
+ }
+
+ img
+ {
+ 	width: 70px;
+ }
