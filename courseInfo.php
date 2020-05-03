@@ -1,13 +1,16 @@
 
 <?php
 
-echo'<link href="stylesheets.css" rel="stylesheet">';
+echo'<link href="stylesheet.css" rel="stylesheet">';
 
 $servername="localhost";
 $username="root";
 $password="";
 $query=$_REQUEST['cn'];
-//echo'<link rel="stylesheet" href="stylesheets.css"  >';
+echo'
+<P>
+<a href="register.html" > <button  type="button" class="register_btn"> GO back </button></a> </p>';
+
 echo" YOUR QUERY STRING SEARCH RESULT"."<br>";
 
 $conn = mysqli_connect($servername, $username, $password);
@@ -27,6 +30,7 @@ if($sql=='select CourseNo, Title from termproject.courseinformation')
 						if (mysqli_num_rows($result) > 0) // if there are rows present
 						{
 						while($row = mysqli_fetch_assoc($result)) { // fetch next row
+							
 						echo $row["CourseNo"]. "		" . $row["Title"]. "<br>"; // output data of that row
 						}
 
@@ -143,7 +147,7 @@ elseif($sql=='select Title, room from termproject.courseinformation')
 						}
 
 
-elseif($sql=='select email, phone from termproject.courseinformation')
+elseif($sql=='select email, phone from termproject.instructor')
 					{
 					echo "<br>";
 					if (mysqli_num_rows($result) > 0) // if there are rows present

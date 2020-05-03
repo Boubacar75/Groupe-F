@@ -1,0 +1,38 @@
+<html>
+  
+<head> 
+
+	<title> Registration Page</title>
+<link href="stylesheet.css" rel="stylesheet">
+
+ </head>
+<body>
+	 <?php
+ include("header.php"); ?>
+
+
+
+
+<div class="clearfix">
+	<img src="user_icon.png">
+	<h2> INPUT YOUR QUERY STRING</h2> 
+	
+<form action ="courseInfo.php" method="get">
+	<p> 
+	<input type="coursenum" name="cn" placeholder ="Course Number"></p>
+	<hr>
+	<button type="submit" class="register_btn" name="login_user">class</button>
+<p><button
+	<input type="text" value="select * from termproject.course"  name="*fromcourse" class="box"  > </button></p>
+	<!--<p>Enter course section to search: 
+	<input type="courseSection" name="cs"  placeholder= "Course Section"> </p>
+<p>--><h4>
+<input type="submit" name="submit"  value="DATABASE SEARCH" ></h4>
+</p> 
+
+</form>
+</div>
+
+</body>
+
+</html>
