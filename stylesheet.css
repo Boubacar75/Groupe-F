@@ -1,213 +1,106 @@
-body{	
-	margin: 0;
-	padding: 0;
-	font-family: sans-serif;
-	
-	background-image: url(outputback_image.jpg) ;
+body{ 
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  
+  background-image: url(outputback_image.jpg) ;
     background-size: cover;
     background-position: center;
-	color: white;
-background-color:#669999;
-	}
-
-	h2
-	{
-background-color: black;
-color: white;
-	}
-	 h3
-	{
-		background-color: black;
-color: white;
-size: auto;
-	}
-	 h4
-	{
-		background-color: navy;
-color: white;
-text-align: center;
-	}
-
-
-	 h5
-	{
-		 width: 20%;
-    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
-		background-color: red;
-color: white;
-padding: 18px;
-	margin:  8% auto 0;
-	text-align: center;
-	}
-
+  color: white;
+background-color:#000000;
+  }
 
  .sub
   {
     width: 20%;
     box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
-	background: black;
-	padding: 30px;
-	margin:  8% auto 0;
-	text-align: center;
+  background: black;
+  padding: 30px;
+  margin:  8% auto 0;
+  text-align: center;
 }
 
- .sub h1
- {
- 	color: green;
- 	margin-bottom: 30px;
- }
-
- .sub h4
-		 {
-		 color: black;
-		 	background-color: red;
-		 	margin-bottom: 30px;
-		 }
-
-		 .sub2
+ 
+     .sub2
   {
-   
+   width:auto;
     box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
-	background: black;
-	padding: 30px;
-	margin:  8% auto 0;
-	text-align: center;
-	border-radius: 20px;
- 	padding: 10px;
- 	margin: 10px 0;
+ 
+  padding: 30px;
+  margin:  8% auto 0;
+ text-align: center;
+ border-radius: 20px;
+  padding: 10px;
+  margin: 10px 0;
   width: auto;
+         cursor: -webkit-grab; cursor: grab;
 }
 
- .box
- {
- 	border-radius: 20px;
- 	padding: 10px;
- 	margin: 10px 0;
- 	width: 50%;
- 	border: 1px solid #999;
- 	outline: none;
- }
+ 
  button
  {
- 	color: #fff;
- 	width:100%;
- 	padding: 10px;
- 	border-radius: 20px;
- 	font-size: 15px;
- 	margin: 10px 0;
- 	border: none;
- 	outline: none;
- 	cursor: pointer;
-
+  color: black;
+  width:10%;
+  padding: 30px;
+  border-radius: 20px;
+  font-size: 15px;
+  margin: 10px 0 10px 150px;
+  border: none;
+  outline: none;
+ cursor: -webkit-grab; cursor: grab;
+ font-size: 150%;
  }
  .register_btn
  {
- 	background-color: green;
+  background-color: red;
  }
  a
  {
- 	text-decoration: none;
+  text-decoration: none;
  }
  hr
  {
- 	margin-top: 20px;
- 	width: 80%;
- }
-
- .or{
- 	background: black;
- 	width: 30px;
- 	margin: -19px auto 10px;
+  margin-top: 20px;
+  width: 80%;
  }
 
  img
  {
- 	width: 70px;
+  width: 70px;
  }
 
-
- .sub h5
- {
- 	color: green;
- 	margin-bottom: 30px;
- 	background-color: blue;
- }
-
-
-.clearfix {
-  overflow: auto;
-}
-
-.clearfix h3
-{	
-	/*margin:  8% auto 0;*/
-	text-align: center;
-width: 50%;
-  font-size: 30px;
-  padding-top:-100px;
-  padding-bottom: 0px;
-padding: 15px;
-   color: black;
-   background-color: #a366ff;
-  margin-right: 70px;
-  margin-bottom: 15px;
-  margin-left: 70px;
-  border: 0px solid rgb(255, 255, 255);
-  box-shadow: 3px 3px 3px black;
-
-  height: auto;
-  width: auto;
-  float: top;
-  text-align: 10px;
-  border-radius: 20px;
-  border-radius: 20px;
-}
- 
-}
-
-
-.TitleBox {
-		  text-align: center;
-		  box-shadow: 7px 7px 6px #888888;
-		  font-size: 30px;
-		  padding-top:-100px;
-		  padding-bottom: 0px;
-		  color: black;
-		  background-color: white;
-		}
-
-
-.CirclesPic {
-  text-align: center;
-  padding-top: -50px;
-  padding-left: 400px;
-  margin-top: 13px;
-  font-family: "Georgia";
-  color:black;
-}
 
  h6 #header-manu
 {
-		background-color: red;
+    background-color: red;
 }
 
-#header-manu
+
+
+#header-manu2
  {
     padding: 15px;
   margin-right: 50px;
   margin-bottom: 15px;
   border: 0px solid rgb(255, 255, 255);
-  box-shadow: 3px 3px 3px black;
-  background-color: green;
+  box-shadow: 3px 3px 3px red;
+  background-color: #000033;
   height: auto;
   width: auto;
   float: left;
   text-align: 10px;
   border-radius: 20px;
   border-radius: 20px;
+
+}
+ h4 #header-manu2
+{
+  color: white;
+  background-color: blue;
 }
 
-#header-manu2
+
+#header-manu3
  {
     padding: 15px;
   margin-right: 50px;
@@ -221,17 +114,11 @@ padding: 15px;
   text-align: 10px;
   border-radius: 20px;
   border-radius: 20px;
+
+}
+ h6 #header-manu3
+{
+    background-color: white;
 }
 
-.header {
-  width: 30%;
-  margin: 150px auto 0px;
-  color: black;
-  background: white;
-  text-align: center;
-  border: 1px solid #B0C4DE;
-  border-bottom: none;
-  border-radius: 10px 10px 0px 0px;
-  padding: 20px;
-}
 
