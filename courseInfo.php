@@ -36,7 +36,7 @@ echo'
 <P>
 <a href="register.html" > <button  type="button" class="register_btn"> GO to menu </button></a> </p>';
 
-echo" YOUR BOTTON RESULT"."<br>";
+echo" YOUR BUTTON RESULT"."<br>";
 
 $conn = mysqli_connect($servername, $username, $password);
 
@@ -214,18 +214,22 @@ elseif($sql=='select Title, room from termproject.courseinformation')
 						}
 
 
-elseif($sql=='select email, phone from termproject.instructor')
+elseif($sql=='select instructor_name, phone, email from termproject.instructor')
 					{
 					echo "<br>";
 					echo"  <tr>
-							<th> email </th>
+							<th> instructor name </th>
 							<th> phone number </th>
+							<th> email </th>
 							</tr>";
 					if (mysqli_num_rows($result) > 0) // if there are rows present
 					{
 					while($row = mysqli_fetch_assoc($result))
 					 { // fetch next row
-					echo "<tr><td>".$row["email"]."</td><td>".$row["phone"]."</td></tr>"; // output data of that row
+					echo "<tr><td>"
+					.$row["instructor_name"]."</td><td>"
+					.$row["phone"]."</td><td>"
+					.$row["email"]."</td></tr>"; // output data of that row
 					}
 						echo "</table>";
 					} 
@@ -242,53 +246,34 @@ elseif($sql=='select email, phone from termproject.instructor')
 					{
 					echo "<br>";
 					echo"  <tr>
-							<th> course Number section </th>
 							<th> Room </th>
-							<th> Day </th>
-							<th> First Day </th>
-							<th> Second Day </th>
-							<th> Third Day </th>
-							<th> hours </th>
+							<th> course Number </th>
+							<th> section No </th>
+							<th> Monday </th>
+							<th> Tuesday </th>
+							<th> Wednesday </th>
+							<th> Thursday </th>
+							<th> Friday </th>
+							<th> Saturday </th>
+							<th> Sunday </th>
+							<th> Total hours </th>
 							</tr>";
 					if (mysqli_num_rows($result) > 0) // if there are rows present
 					{
 					while($row = mysqli_fetch_assoc($result))
 					 { // fetch next row
 					echo "<tr><td>"
-					.$row["courseNo"]."</td><td>"
 					.$row["Room"]."</td><td>"
-					.$row["Day"]."</td><td>"
-					.$row["First Day"]."</td><td>"
-					.$row["Second Day"]."</td><td>"
-					.$row["Third Day"]."</td><td>"
-					.$row["hours"]."</td></tr>"; // output data of that row
-					}
-						echo "</table>";
-					} 
-
-					else {
-					echo "No results";
-					}
-					mysqli_free_result($result);
-					$conn->close();
-					}
-
-
-
-elseif($sql=='select+*+from%20termproject.classschedule%20where%20Room%20=F904')
-	
-					{	include('classgrid.html');
-					echo "<br>";
-					echo"  <tr>
-							<th> Day </th>
-							<th> hours </th>
-							<th> course </th>
-							</tr>";
-					if (mysqli_num_rows($result) > 0) // if there are rows present
-					{
-					while($row = mysqli_fetch_assoc($result))
-					 { // fetch next row
-					echo "<tr><td>".$row["Day"]."</td><td>".$row["hours"]."</td><td>".$row["courseNo"]."</td></tr>"; // output data of that row
+					.$row["courseNo"]."</td><td>"
+					.$row["SectionNo"]."</td><td>"
+					.$row["monday"]."</td><td>"
+					.$row["tuesday"]."</td><td>"
+					.$row["wednesday"]."</td><td>"
+					.$row["thursday"]."</td><td>"
+					.$row["friday"]."</td><td>"
+					.$row["saturday"]."</td><td>"
+					.$row["sunday"]."</td><td>"
+					.$row["total hours"]."</td></tr>"; // output data of that row
 					}
 						echo "</table>";
 					} 

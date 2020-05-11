@@ -1,0 +1,55 @@
+room,courseNo,sectionNo,monday,tuesday,wednesday,thursday,friday,saturday,sunday,total hours
+F904,CIS100,1200,8am-10am,,8am-10am,,,,,4
+F908,CIS115,1104,10am-12pm,,10am-12pm,,,,,4
+F904,CIS120,1704,12pm-2pm,,12pm-1pm,,,,,3
+F905,CIS140,1802,2pm-4pm,,4pm-5pm,,,,,3
+M1209,CIS155,1600,4pm-7pm,,5pm-7pm,,,,,5
+F904,CIS160,1105,7pm-9pm,,7pm-8pm,,,,,3
+F1204,CIS165,1404,,8am-10am,,8am-10am,,,,4
+F1201,CIS180,1303,,10am-12pm,,10am-12pm,,,,4
+F1113,CIS200,1504,,12pm-2pm,,12pm-2pm,,,,4
+F1203,CIS207,1103,,8am-10am,,8am-10am,2pm-4pm,,,6
+F905,CIS220,1603,,2pm-4pm,,2pm-4pm,,,,4
+F1113,CIS235,1505,,10am-13pm,,10am-12pm,,,,5
+M1209,CIS255,1705,,10am-1pm,,10am-1pm,,,,6
+F906,CIS280,1301,,10am-12pm,,10am-12pm,,,,4
+F1204,CIS316,1001,,4pm-6pm,,4pm-6pm,,,,4
+F907,CIS317,1801,,7pm-9pm,,7pm-9pm,,,,4
+F1204,CIS325,1902,,1pm-3pm,,1pm-3pm,,,,4
+M1209,CIS335,1002,,3pm-6pm,,3pm-5pm,,,,5
+F1203,CIS345,1201,,6pm-9pm,,5pm-7pm,,,,5
+F907,CIS359,1904,8am-10am,,,,,,,4
+F904,CIS362,1601,,,,,8am-12am,,,4
+F906,CIS364,1203,10am-12pm,,,10am-12pm,,,,4
+F1201,CIS365,1502,3pm-6pm,,,3pm-6pm,,,,5
+F905,CIS370,1304,,8am-10am,,8am-10am,,,,4
+F907,CIS385,1803,12pm-2pm,,12pm-2pm,,,,,4
+F1113,CIS390,1602,,,,,8am-12am,,,4
+F1203,CIS395,1305,6pm-9pm,,,5pm-7pm,,,,5
+F906,CIS420,1905,,4pm-7pm,,4pm-6pm,,,,5
+M1209,CIS440,1003,,,,,8am-12pm,,,4
+F1204,CIS445,1302,,7pm-10pm,,6pm-8pm,,,,5
+F1201,CIS455,1804,6pm-9pm,,6pm-8pm,,,,,5
+F908,CIS459,1405,6pm-9pm,,5pm-8pm ,,,,,5
+F906,CIS465,1202,6pm-9pm,,5pm-9pm ,,5pm-8pm,,,10
+F1204,CIS475,1000,6pm-9pm,,6pm-8pm,,,,,5
+F1113,CIS480,1903,,,,,12pm-3pm,,,3
+M1209,CIS485,1800,,,,,12pm-4pm,,,4
+F1203,CIS490,1403,,,,,10am-2pm,,,4
+F907,CIS495,1503,,,,,8am-12pm,,,4
+F904,CSC 101,1500,,8am-10am,,8am-10am,,,,4
+F905,CSC 110,1901,,10am-1pm,,10am-12pm,,,,5
+F906,CSC111,1900,,1pm-4pm,,12pm-2pm,,,,5
+F907,csc210,1700,,4pm-7pm,,2pm-4pm,,,,5
+M1209,CSC211,1100,,7pm-10pm,,4pm-6pm,,,,5
+F908,CSC215,1101,,,,6pm-10pm,,,,4
+F1113,CSC230,1701,8am-11am,,8am-11am,,,,,6
+F1201,CSC231,1400,11am-1pm,,11am-1pm,,,,,4
+F1203,CSC310 ,1702,1pm-3pm,,4pm-6pm,,,,,4
+F1204,CSC330,1703,3pm-5pm,,6pm-8pm,,,,,4
+F904,CSC331,1401,10am-13pm,,10am-12pm,,,,,5
+M1209,CSC350,1300,5pm-8pm,,8pm-22pm,,,,,5
+F906,CSC410 ,1102,,,,,8am-12pm,,,4
+F1201,CSC430,1402,8am-10am,,8am-10am,,,,,4
+F1113,CSC450,1603,1pm-3pm,,12pm-2pm,,,,,4
+F908,CSC470,1501,3pm-6pm,,4pm-6-pm,,,,,5

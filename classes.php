@@ -57,24 +57,34 @@ die("Connection failed: ". mysqli_connect_error());
 						include('classgrid.html');
 					echo "<br>";
 					echo"  <tr>
-							<th> Day </th>
-							<th> First Day </th>
-							<th> Second Day </th>
-							<th> Third Day </th>
-							<th> COURSE </th>
-							<th> total hours </th>
+							<th> Room </th>
+							<th> course Number </th>
+							<th> section No </th>
+							<th> Monday </th>
+							<th> Tuesday </th>
+							<th> Wednesday </th>
+							<th> Thursday </th>
+							<th> Friday </th>
+							<th> Saturday </th>
+							<th> Sunday </th>
+							<th> Total hours </th>
 							</tr>";
 					if (mysqli_num_rows($result) > 0) // if there are rows present
 					{
 					while($row = mysqli_fetch_assoc($result))
 					 { // fetch next row
 					echo "<tr><td>"
-					.$row["Day"]."</td><td>"
-					.$row["First Day"]."</td><td>"
-					.$row["Second Day"]."</td><td>"
-					.$row["Third Day"]."</td><td>"
+					.$row["Room"]."</td><td>"
 					.$row["courseNo"]."</td><td>"
-					.$row["hours"]."</td><td>"."</td></tr>"; // output data of that row
+					.$row["SectionNo"]."</td><td>"
+					.$row["monday"]."</td><td>"
+					.$row["tuesday"]."</td><td>"
+					.$row["wednesday"]."</td><td>"
+					.$row["thursday"]."</td><td>"
+					.$row["friday"]."</td><td>"
+					.$row["saturday"]."</td><td>"
+					.$row["sunday"]."</td><td>"
+					.$row["total hours"]."</td></tr>"; // output data of that row
 					}
 						echo "</table>";
 					} 
@@ -94,24 +104,34 @@ die("Connection failed: ". mysqli_connect_error());
 						include('classgrid.html');
 					echo "<br>";
 					echo"  <tr>
-							<th> Day </th>
-							<th> First Day </th>
-							<th> Second Day </th>
-							<th> Third Day </th>
-							<th> COURSE </th>
-							<th> total hours </th>
+							<th> Room </th>
+							<th> course Number </th>
+							<th> section No </th>
+							<th> Monday </th>
+							<th> Tuesday </th>
+							<th> Wednesday </th>
+							<th> Thursday </th>
+							<th> Friday </th>
+							<th> Saturday </th>
+							<th> Sunday </th>
+							<th> Total hours </th>
 							</tr>";
 					if (mysqli_num_rows($result) > 0) // if there are rows present
 					{
 					while($row = mysqli_fetch_assoc($result))
 					 { // fetch next row
 					echo "<tr><td>"
-					.$row["Day"]."</td><td>"
-					.$row["First Day"]."</td><td>"
-					.$row["Second Day"]."</td><td>"
-					.$row["Third Day"]."</td><td>"
+					.$row["Room"]."</td><td>"
 					.$row["courseNo"]."</td><td>"
-					.$row["hours"]."</td><td>"."</td></tr>"; // output data of that row
+					.$row["SectionNo"]."</td><td>"
+					.$row["monday"]."</td><td>"
+					.$row["tuesday"]."</td><td>"
+					.$row["wednesday"]."</td><td>"
+					.$row["thursday"]."</td><td>"
+					.$row["friday"]."</td><td>"
+					.$row["saturday"]."</td><td>"
+					.$row["sunday"]."</td><td>"
+					.$row["total hours"]."</td></tr>"; // output data of that row
 					}
 						echo "</table>";
 					} 
@@ -130,24 +150,34 @@ elseif($choice=='F906')
 									include('classgrid.html');
 					echo "<br>";
 					echo"  <tr>
-							<th> Day </th>
-							<th> First Day </th>
-							<th> Second Day </th>
-							<th> Third Day </th>
-							<th> COURSE </th>
-							<th> total hours </th>
+							<th> Room </th>
+							<th> course Number </th>
+							<th> section No </th>
+							<th> Monday </th>
+							<th> Tuesday </th>
+							<th> Wednesday </th>
+							<th> Thursday </th>
+							<th> Friday </th>
+							<th> Saturday </th>
+							<th> Sunday </th>
+							<th> Total hours </th>
 							</tr>";
 					if (mysqli_num_rows($result) > 0) // if there are rows present
 					{
 					while($row = mysqli_fetch_assoc($result))
 					 { // fetch next row
 					echo "<tr><td>"
-					.$row["Day"]."</td><td>"
-					.$row["First Day"]."</td><td>"
-					.$row["Second Day"]."</td><td>"
-					.$row["Third Day"]."</td><td>"
+					.$row["Room"]."</td><td>"
 					.$row["courseNo"]."</td><td>"
-					.$row["hours"]."</td><td>"."</td></tr>"; // output data of that row
+					.$row["SectionNo"]."</td><td>"
+					.$row["monday"]."</td><td>"
+					.$row["tuesday"]."</td><td>"
+					.$row["wednesday"]."</td><td>"
+					.$row["thursday"]."</td><td>"
+					.$row["friday"]."</td><td>"
+					.$row["saturday"]."</td><td>"
+					.$row["sunday"]."</td><td>"
+					.$row["total hours"]."</td></tr>"; // output data of that row
 						
 					} 
 					echo "</table>";
@@ -168,24 +198,34 @@ elseif($choice=='F907')
 										include('classgrid.html');
 					echo "<br>";
 					echo"  <tr>
-							<th> Day </th>
-							<th> First Day </th>
-							<th> Second Day </th>
-							<th> Third Day </th>
-							<th> COURSE </th>
-							<th> total hours </th>
+							<th> Room </th>
+							<th> course Number </th>
+							<th> section No </th>
+							<th> Monday </th>
+							<th> Tuesday </th>
+							<th> Wednesday </th>
+							<th> Thursday </th>
+							<th> Friday </th>
+							<th> Saturday </th>
+							<th> Sunday </th>
+							<th> Total hours </th>
 							</tr>";
 					if (mysqli_num_rows($result) > 0) // if there are rows present
 					{
 					while($row = mysqli_fetch_assoc($result))
 					 { // fetch next row
 					echo "<tr><td>"
-					.$row["Day"]."</td><td>"
-					.$row["First Day"]."</td><td>"
-					.$row["Second Day"]."</td><td>"
-					.$row["Third Day"]."</td><td>"
+					.$row["Room"]."</td><td>"
 					.$row["courseNo"]."</td><td>"
-					.$row["hours"]."</td><td>"."</td></tr>"; // output data of that row
+					.$row["SectionNo"]."</td><td>"
+					.$row["monday"]."</td><td>"
+					.$row["tuesday"]."</td><td>"
+					.$row["wednesday"]."</td><td>"
+					.$row["thursday"]."</td><td>"
+					.$row["friday"]."</td><td>"
+					.$row["saturday"]."</td><td>"
+					.$row["sunday"]."</td><td>"
+					.$row["total hours"]."</td></tr>"; // output data of that row
 					}
 						echo "</table>";
 					} 
@@ -205,24 +245,34 @@ elseif($choice=='F907')
 									include('classgrid.html');
 					echo "<br>";
 					echo"  <tr>
-							<th> Day </th>
-							<th> First Day </th>
-							<th> Second Day </th>
-							<th> Third Day </th>
-							<th> COURSE </th>
-							<th> total hours </th>
+							<th> Room </th>
+							<th> course Number </th>
+							<th> section No </th>
+							<th> Monday </th>
+							<th> Tuesday </th>
+							<th> Wednesday </th>
+							<th> Thursday </th>
+							<th> Friday </th>
+							<th> Saturday </th>
+							<th> Sunday </th>
+							<th> Total hours </th>
 							</tr>";
 					if (mysqli_num_rows($result) > 0) // if there are rows present
 					{
 					while($row = mysqli_fetch_assoc($result))
 					 { // fetch next row
 					echo "<tr><td>"
-					.$row["Day"]."</td><td>"
-					.$row["First Day"]."</td><td>"
-					.$row["Second Day"]."</td><td>"
-					.$row["Third Day"]."</td><td>"
+					.$row["Room"]."</td><td>"
 					.$row["courseNo"]."</td><td>"
-					.$row["hours"]."</td><td>"."</td></tr>"; // output data of that row
+					.$row["SectionNo"]."</td><td>"
+					.$row["monday"]."</td><td>"
+					.$row["tuesday"]."</td><td>"
+					.$row["wednesday"]."</td><td>"
+					.$row["thursday"]."</td><td>"
+					.$row["friday"]."</td><td>"
+					.$row["saturday"]."</td><td>"
+					.$row["sunday"]."</td><td>"
+					.$row["total hours"]."</td></tr>"; // output data of that row
 					}
 						echo "</table>";
 					} 
@@ -241,24 +291,34 @@ elseif($choice=='F907')
 										include('classgrid.html');
 					echo "<br>";
 					echo"  <tr>
-							<th> Day </th>
-							<th> First Day </th>
-							<th> Second Day </th>
-							<th> Third Day </th>
-							<th> COURSE </th>
-							<th> total hours </th>
+							<th> Room </th>
+							<th> course Number </th>
+							<th> section No </th>
+							<th> Monday </th>
+							<th> Tuesday </th>
+							<th> Wednesday </th>
+							<th> Thursday </th>
+							<th> Friday </th>
+							<th> Saturday </th>
+							<th> Sunday </th>
+							<th> Total hours </th>
 							</tr>";
 					if (mysqli_num_rows($result) > 0) // if there are rows present
 					{
 					while($row = mysqli_fetch_assoc($result))
 					 { // fetch next row
 					echo "<tr><td>"
-					.$row["Day"]."</td><td>"
-					.$row["First Day"]."</td><td>"
-					.$row["Second Day"]."</td><td>"
-					.$row["Third Day"]."</td><td>"
+					.$row["Room"]."</td><td>"
 					.$row["courseNo"]."</td><td>"
-					.$row["hours"]."</td><td>"."</td></tr>"; // output data of that row
+					.$row["SectionNo"]."</td><td>"
+					.$row["monday"]."</td><td>"
+					.$row["tuesday"]."</td><td>"
+					.$row["wednesday"]."</td><td>"
+					.$row["thursday"]."</td><td>"
+					.$row["friday"]."</td><td>"
+					.$row["saturday"]."</td><td>"
+					.$row["sunday"]."</td><td>"
+					.$row["total hours"]."</td></tr>"; // output data of that row
 					}
 						echo "</table>";
 					} 
@@ -278,24 +338,34 @@ elseif($choice=='F907')
 								include('classgrid.html');
 							echo "<br>";
 							echo"  <tr>
-							<th> Day </th>
-							<th> First Day </th>
-							<th> Second Day </th>
-							<th> Third Day </th>
-							<th> COURSE </th>
-							<th> total hours </th>
+							<th> Room </th>
+							<th> course Number </th>
+							<th> section No </th>
+							<th> Monday </th>
+							<th> Tuesday </th>
+							<th> Wednesday </th>
+							<th> Thursday </th>
+							<th> Friday </th>
+							<th> Saturday </th>
+							<th> Sunday </th>
+							<th> Total hours </th>
 							</tr>";
 					if (mysqli_num_rows($result) > 0) // if there are rows present
 					{
 					while($row = mysqli_fetch_assoc($result))
 					 { // fetch next row
 					echo "<tr><td>"
-					.$row["Day"]."</td><td>"
-					.$row["First Day"]."</td><td>"
-					.$row["Second Day"]."</td><td>"
-					.$row["Third Day"]."</td><td>"
+					.$row["Room"]."</td><td>"
 					.$row["courseNo"]."</td><td>"
-					.$row["hours"]."</td><td>"."</td></tr>"; // output data of that row
+					.$row["SectionNo"]."</td><td>"
+					.$row["monday"]."</td><td>"
+					.$row["tuesday"]."</td><td>"
+					.$row["wednesday"]."</td><td>"
+					.$row["thursday"]."</td><td>"
+					.$row["friday"]."</td><td>"
+					.$row["saturday"]."</td><td>"
+					.$row["sunday"]."</td><td>"
+					.$row["total hours"]."</td></tr>"; // output data of that row
 					}
 						echo "</table>";
 					} 
@@ -315,12 +385,17 @@ elseif($choice=='F907')
 									include('classgrid.html');
 								echo "<br>";
 								echo"  <tr>
-							<th> Day </th>
-							<th> First Day </th>
-							<th> Second Day </th>
-							<th> Third Day </th>
-							<th> COURSE </th>
-							<th> total hours </th>
+							<th> Room </th>
+							<th> course Number </th>
+							<th> section No </th>
+							<th> Monday </th>
+							<th> Tuesday </th>
+							<th> Wednesday </th>
+							<th> Thursday </th>
+							<th> Friday </th>
+							<th> Saturday </th>
+							<th> Sunday </th>
+							<th> Total hours </th>
 							</tr>";
 
 					if (mysqli_num_rows($result) > 0) // if there are rows present
@@ -328,12 +403,17 @@ elseif($choice=='F907')
 					while($row = mysqli_fetch_assoc($result))
 					 { // fetch next row
 					echo "<tr><td>"
-					.$row["Day"]."</td><td>"
-					.$row["First Day"]."</td><td>"
-					.$row["Second Day"]."</td><td>"
-					.$row["Third Day"]."</td><td>"
+					.$row["Room"]."</td><td>"
 					.$row["courseNo"]."</td><td>"
-					.$row["hours"]."</td><td>"."</td></tr>"; // output data of that row
+					.$row["SectionNo"]."</td><td>"
+					.$row["monday"]."</td><td>"
+					.$row["tuesday"]."</td><td>"
+					.$row["wednesday"]."</td><td>"
+					.$row["thursday"]."</td><td>"
+					.$row["friday"]."</td><td>"
+					.$row["saturday"]."</td><td>"
+					.$row["sunday"]."</td><td>"
+					.$row["total hours"]."</td></tr>"; // output data of that row
 					}
 						echo "</table>";
 					} 
@@ -352,26 +432,34 @@ elseif($choice=='F907')
 								include('classgrid.html');
 							echo "<br>";
 							echo"  <tr>
-							<th> Day </th>
-							<th> First Day </th>
-							<th> Second Day </th>
-							<th> Third Day </th>
-							<th> COURSE </th>
-							<th> total hours </th>
-							
-							
+							<th> Room </th>
+							<th> course Number </th>
+							<th> section No </th>
+							<th> Monday </th>
+							<th> Tuesday </th>
+							<th> Wednesday </th>
+							<th> Thursday </th>
+							<th> Friday </th>
+							<th> Saturday </th>
+							<th> Sunday </th>
+							<th> Total hours </th>
 							</tr>";
 					if (mysqli_num_rows($result) > 0) // if there are rows present
 					{
 					while($row = mysqli_fetch_assoc($result))
 					 { // fetch next row
 					echo "<tr><td>"
-					.$row["Day"]."</td><td>"
-					.$row["First Day"]."</td><td>"
-					.$row["Second Day"]."</td><td>"
-					.$row["Third Day"]."</td><td>"
+					.$row["Room"]."</td><td>"
 					.$row["courseNo"]."</td><td>"
-					.$row["hours"]."</td><td>"."</td></tr>"; // output data of that row
+					.$row["SectionNo"]."</td><td>"
+					.$row["monday"]."</td><td>"
+					.$row["tuesday"]."</td><td>"
+					.$row["wednesday"]."</td><td>"
+					.$row["thursday"]."</td><td>"
+					.$row["friday"]."</td><td>"
+					.$row["saturday"]."</td><td>"
+					.$row["sunday"]."</td><td>"
+					.$row["total hours"]."</td></tr>"; // output data of that row
 					}
 						echo "</table>";
 					} 
@@ -389,26 +477,34 @@ elseif($choice=='F907')
 								include('classgrid.html');
 							echo "<br>";
 							echo"  <tr>
-							<th> Day </th>
-							<th> First Day </th>
-							<th> Second Day </th>
-							<th> Third Day </th>
-							<th> COURSE </th>
-							<th> total hours </th>
-							
-									
-									</tr>";
+							<th> Room </th>
+							<th> course Number </th>
+							<th> section No </th>
+							<th> Monday </th>
+							<th> Tuesday </th>
+							<th> Wednesday </th>
+							<th> Thursday </th>
+							<th> Friday </th>
+							<th> Saturday </th>
+							<th> Sunday </th>
+							<th> Total hours </th>
+							</tr>";
 							if (mysqli_num_rows($result) > 0) // if there are rows present
 							{
 							while($row = mysqli_fetch_assoc($result))
 							 { // fetch next row
 							echo "<tr><td>"
-					.$row["Day"]."</td><td>"
-					.$row["First Day"]."</td><td>"
-					.$row["Second Day"]."</td><td>"
-					.$row["Third Day"]."</td><td>"
+					.$row["Room"]."</td><td>"
 					.$row["courseNo"]."</td><td>"
-					.$row["hours"]."</td><td>"."</td></tr>"; // output data of that row
+					.$row["SectionNo"]."</td><td>"
+					.$row["monday"]."</td><td>"
+					.$row["tuesday"]."</td><td>"
+					.$row["wednesday"]."</td><td>"
+					.$row["thursday"]."</td><td>"
+					.$row["friday"]."</td><td>"
+					.$row["saturday"]."</td><td>"
+					.$row["sunday"]."</td><td>"
+					.$row["total hours"]."</td></tr>"; // output data of that row
 					}
 						echo "</table>";
 					} 
